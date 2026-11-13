@@ -1,0 +1,221 @@
+{
+  "rows": 5320,
+  "columns": 21,
+  "rows_by_type": {
+    "white": 3961,
+    "red": 1359
+  },
+  "quality_counts": {
+    "3": 30,
+    "4": 206,
+    "5": 1752,
+    "6": 2323,
+    "7": 856,
+    "8": 148,
+    "9": 5
+  },
+  "quality_by_type": {
+    "red": {
+      "3": 10,
+      "4": 53,
+      "5": 577,
+      "6": 535,
+      "7": 167,
+      "8": 17
+    },
+    "white": {
+      "3": 20,
+      "4": 153,
+      "5": 1175,
+      "6": 1788,
+      "7": 689,
+      "8": 131,
+      "9": 5
+    }
+  },
+  "good_wine_rate": 0.1897,
+  "good_wine_rate_by_type": {
+    "red": 0.1354,
+    "white": 0.2083
+  },
+  "numeric_summary": {
+    "fixed acidity": {
+      "mean": 7.215,
+      "std": 1.32,
+      "min": 3.8,
+      "median": 7.0,
+      "max": 15.9
+    },
+    "volatile acidity": {
+      "mean": 0.344,
+      "std": 0.168,
+      "min": 0.08,
+      "median": 0.3,
+      "max": 1.58
+    },
+    "citric acid": {
+      "mean": 0.318,
+      "std": 0.147,
+      "min": 0.0,
+      "median": 0.31,
+      "max": 1.66
+    },
+    "residual sugar": {
+      "mean": 5.048,
+      "std": 4.5,
+      "min": 0.6,
+      "median": 2.7,
+      "max": 65.8
+    },
+    "chlorides": {
+      "mean": 0.057,
+      "std": 0.037,
+      "min": 0.009,
+      "median": 0.047,
+      "max": 0.611
+    },
+    "free sulfur dioxide": {
+      "mean": 30.037,
+      "std": 17.805,
+      "min": 1.0,
+      "median": 28.0,
+      "max": 289.0
+    },
+    "total sulfur dioxide": {
+      "mean": 114.109,
+      "std": 56.774,
+      "min": 6.0,
+      "median": 116.0,
+      "max": 440.0
+    },
+    "density": {
+      "mean": 0.995,
+      "std": 0.003,
+      "min": 0.987,
+      "median": 0.995,
+      "max": 1.039
+    },
+    "pH": {
+      "mean": 3.225,
+      "std": 0.16,
+      "min": 2.72,
+      "median": 3.21,
+      "max": 4.01
+    },
+    "sulphates": {
+      "mean": 0.533,
+      "std": 0.15,
+      "min": 0.22,
+      "median": 0.51,
+      "max": 2.0
+    },
+    "alcohol": {
+      "mean": 10.549,
+      "std": 1.186,
+      "min": 8.0,
+      "median": 10.4,
+      "max": 14.9
+    },
+    "total_acidity": {
+      "mean": 7.878,
+      "std": 1.413,
+      "min": 4.13,
+      "median": 7.59,
+      "max": 17.045
+    },
+    "bound_so2": {
+      "mean": 84.072,
+      "std": 45.648,
+      "min": 3.0,
+      "median": 85.0,
+      "max": 331.0
+    },
+    "free_so2_ratio": {
+      "mean": 0.287,
+      "std": 0.126,
+      "min": 0.023,
+      "median": 0.269,
+      "max": 0.857
+    },
+    "sugar_alcohol_ratio": {
+      "mean": 0.5,
+      "std": 0.475,
+      "min": 0.057,
+      "median": 0.26,
+      "max": 5.624
+    },
+    "sulphates_alcohol": {
+      "mean": 0.051,
+      "std": 0.015,
+      "min": 0.016,
+      "median": 0.05,
+      "max": 0.213
+    },
+    "acidity_ph": {
+      "mean": 2.455,
+      "std": 0.488,
+      "min": 1.101,
+      "median": 2.368,
+      "max": 5.778
+    }
+  },
+  "top_correlations_with_quality": [
+    {
+      "feature": "alcohol",
+      "correlation": 0.4694
+    },
+    {
+      "feature": "density",
+      "correlation": -0.3264
+    },
+    {
+      "feature": "volatile acidity",
+      "correlation": -0.2652
+    },
+    {
+      "feature": "chlorides",
+      "correlation": -0.2021
+    },
+    {
+      "feature": "sulphates_alcohol",
+      "correlation": -0.127
+    },
+    {
+      "feature": "free_so2_ratio",
+      "correlation": 0.1241
+    },
+    {
+      "feature": "sugar_alcohol_ratio",
+      "correlation": -0.1
+    },
+    {
+      "feature": "citric acid",
+      "correlation": 0.098
+    },
+    {
+      "feature": "acidity_ph",
+      "correlation": -0.0968
+    },
+    {
+      "feature": "total_acidity",
+      "correlation": -0.0962
+    },
+    {
+      "feature": "bound_so2",
+      "correlation": -0.0836
+    },
+    {
+      "feature": "fixed acidity",
+      "correlation": -0.0801
+    }
+  ],
+  "median_alcohol_by_quality": {
+    "3": 10.15,
+    "4": 10.1,
+    "5": 9.6,
+    "6": 10.5,
+    "7": 11.5,
+    "8": 12.2,
+    "9": 12.5
+  }
+}
